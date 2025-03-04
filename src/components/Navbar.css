@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28a745; /* Green background */
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .navbar-link {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar-link:hover {
+    color: #f1f1f1; /* Light color on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  .navbar-link:active {
+    color: #e0e0e0; /* Even lighter color when clicked */
+  }
+  
